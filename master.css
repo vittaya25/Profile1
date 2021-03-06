@@ -159,16 +159,16 @@ body{
   position: absolute;
   height: 400px;
   width: 400px;
-  left: 200px;
-  right: auto;
+  left: auto;
+  right: 900px;
   top: 900px;
 }
 .p_2_2{
   position: absolute;
   display: inline-block;
   top: 900px;
-  left: 600px;
-  right: auto;
+  left: auto;
+  right: 500px;
   height: 400px;
   width: 400px;
 }

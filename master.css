@@ -109,10 +109,10 @@ body{
 .all_logo{
   background-color: inherit;
   position: relative;
-  width: 70px;
-  height: 70px;
-  margin-top: 0px;
-  margin-left: 20px;
+  width: 5%;
+  height: 5%;
+  left: 1200px;
+  right: auto;
 }
 
 .end_tab{
@@ -135,8 +135,8 @@ body{
   top: 150px;
   left: 400px;
   right: auto;
-  height: 400px;
-  width: 400px;
+  height: 55%;;
+  width: 26%;
 }
 
 .text_1_2{
@@ -145,8 +145,8 @@ body{
   display: inline-block;
   top: 150px;
   left: 800px;
-  height: 400px;
-  width: 400px;
+  height: 55%;
+  width: 26%;
 }
 .p_2{
   background-color: purple;
@@ -157,8 +157,8 @@ body{
 .p_2_1{
   background-color: white;
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 55%;
+  width: 26%;
   left: auto;
   right: 900px;
   top: 900px;
@@ -169,8 +169,8 @@ body{
   top: 900px;
   left: auto;
   right: 500px;
-  height: 400px;
-  width: 400px;
+  height: 55%;
+  width: 26%;
 }
 .text{
   font-style: italic;

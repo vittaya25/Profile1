@@ -3,57 +3,34 @@ body{
   background-color: black;
   margin: 0px;
 }
-
-.me1{
-  position: relative;
-  height: 800px;
-  width: 50%;
-  margin: 50px auto 50px 110px;
-  border-radius: 20px;
-  border-style: solid;
-  display: inline-block;
+.TH_EN{
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  font-size: 20px;
 }
-.welcome{
-  position: relative;
+.first_picture{
   display: block;
+  margin: 100px auto 0px auto;
+  border-radius: 300px;
+  width: 320px;
   height: 300px;
-  width: 100%;
-  margin-top: 10px;
-  font-size: 60px;
-  font-style: oblique;
 }
-.click_here{
-  position: relative;
-  display: block;
-  margin: 20px auto 0px auto;
-  height: 150px;
-  width: 30%;
-
+.first_text{
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
-.container1{
-  width: 100%;
-  height: 800px;
-
-}
-.container1_1{
-  position: absolute;
-  display: inline-block;
+.click_next{
   background-color: white;
-  margin-top: 100px;
-  height: 700px;
-  border-radius: 10px;
-  margin-left: -3px;
-  width: 35%;
-}
-.pictureNextpage{
-  position: relative;
+  margin: 10px auto 0px auto;
   display: block;
-  width: 30%;
-  height: 20%;
-  margin: 20px auto 0px auto;
-
+  height: 80px;
+  border-radius: 80px;
 }
+
 /*             all setting        */
 
 .sidenav {
@@ -109,10 +86,10 @@ body{
 .all_logo{
   background-color: inherit;
   position: relative;
-  width: 5%;
-  height: 5%;
-  left: 1200px;
-  right: auto;
+  width: 70px;
+  height: 70px;
+  margin-top: 0px;
+  margin-left: 20px;
 }
 
 .end_tab{
@@ -135,8 +112,8 @@ body{
   top: 150px;
   left: 400px;
   right: auto;
-  height: 55%;;
-  width: 26%;
+  height: 400px;
+  width: 400px;
 }
 
 .text_1_2{
@@ -157,8 +134,8 @@ body{
 .p_2_1{
   background-color: white;
   position: absolute;
-  height: 55%;
-  width: 26%;
+  height: 400px;
+  width: 400px;
   left: auto;
   right: 900px;
   top: 900px;
@@ -169,8 +146,8 @@ body{
   top: 900px;
   left: auto;
   right: 500px;
-  height: 55%;
-  width: 26%;
+  height: 400px;
+  width: 400px;
 }
 .text{
   font-style: italic;

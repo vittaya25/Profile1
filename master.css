@@ -160,6 +160,7 @@ body{
   height: 400px;
   width: 400px;
   left: 200px;
+  right: auto;
   top: 900px;
 }
 .p_2_2{
@@ -167,6 +168,7 @@ body{
   display: inline-block;
   top: 900px;
   left: 600px;
+  right: auto;
   height: 400px;
   width: 400px;
 }

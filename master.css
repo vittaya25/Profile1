@@ -1,6 +1,6 @@
 /*               index                */
 body{
-  background-color: black;
+  background-color: #fcd1d1;
   margin: 0px;
 }
 .TH_EN{
@@ -95,14 +95,13 @@ body{
 
 /******************** mainmenu **********************/
 .block1{
-  background-color: black;
-
+  background-color: inherit;
   display: block;
   height: 50vw;
   width: 100%;
 }
-.box1{
-  background-color: red;
+.block1_1{
+  background-color: inherit;
   position: absolute;
   display: inline-block;
   top: 16vw;
@@ -110,19 +109,21 @@ body{
   width: 20vw;
   height: 20vw;
 }
-.box2{
-  background-color: green;
+.block1_2{
+  background-color: inherit;
   position: absolute;
   display: inline-block;
-
   left: 50vw;
   top: 16vw;
   width: 20vw;
   height: 20vw;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vw;
+  margin: 50px 10px 0px 10px;
 }
 
 .block2{
-  background-color: blue;
+  background-color: inherit;
   display: block;
   height: 50vw;
   width: 100%;
@@ -132,10 +133,13 @@ body{
   position: absolute;
   display: inline-block;
   top: 65vw;
-  left: 35vw;
-  background: white;
-  width: 20vw;
+  left: 33vw;
+  background: inherit;
+  width: 22vw;
   height: 20vw;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vw;
+  margin: 50px 0px 0px 0px;
 }
 .block2_2{
   position: absolute;
@@ -144,4 +148,71 @@ body{
   left: 55vw;
   width: 20vw;
   height: 20vw;
+}
+.block3{
+  background-color: inherit;
+  display: block;
+  height: 50vw;
+  width: 100%;
+}
+.block3_1{
+  background-color: inherit;
+  position: absolute;
+  display: inline-block;
+  top: 116vw;
+  left: 30vw;
+  width: 20vw;
+  height: 20vw;
+}
+.block3_2{
+  background-color: inherit;
+  position: absolute;
+  display: inline-block;
+  left: 50vw;
+  top: 116vw;
+  width: 20vw;
+  height: 20vw;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vw;
+  margin: 50px 10px 0px 10px;
+}
+.block4{
+  background-color: inherit;
+  display: block;
+  height: 50vw;
+  width: 100%;
+}
+
+.block4_1{
+  position: absolute;
+  display: inline-block;
+  top: 165vw;
+  left: 33vw;
+  background: inherit;
+  width: 22vw;
+  height: 20vw;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vw;
+  margin: 50px 0px 0px 0px;
+}
+.block4_2{
+  position: absolute;
+  display: inline-block;
+  top: 165vw;
+  left: 55vw;
+  width: 20vw;
+  height: 20vw;
+}
+.go_to_skill{
+  height: 5vw;
+  width: 7vw;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+.go_to_skill:hover{
+  border-width: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
 }

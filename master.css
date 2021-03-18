@@ -48,7 +48,7 @@ body{
   border-radius: 50%;
 }
 .box1_text{
-  font-size: 2vw;
+  font-size: 2.5vw;
   padding: 20px;
   width: 70%;
 
@@ -122,24 +122,31 @@ body{
 
 
 /*     skill.html       */
+
 .htmlcssjs{
+  background-image: url(picture/bk_skill.png);
   width: 100%;
-  height: 50vw;
+  height: 53vw;
+}
+.htmlcssjs_block{
+  padding-top: 10vw;
+  margin: auto;
+  height: 90%;
 }
 .htmlcssjs_picture{
   width: 90%;
-  height: 60%;
-  margin: 5vw auto auto auto;
+  height: 80%;
   display: flex;
+
 }
 .htmlcssjs_picture_wh{
-  width: 33.3%;
-  display: flex;
+  width: 33.33%;
+
 }
 .python{
   background-color: #28527a;
   width: 100%;
-  height: 50vw;
+  height: 55vw;
 }
 .python_center{
   height: 40%;
@@ -185,4 +192,57 @@ body{
 .C_picture_main{
   margin-top: 10vw;
   width: 40%;
+}
+
+.whatcan{
+  width: 100%;
+  height: 50vw;
+}
+.kawin{
+  margin: 2vw auto 3vw auto;
+  display: block;
+  width: 20%;
+}
+.whatcan_text{
+  font-size: 2.7vw;
+  text-align: center;
+}
+.Mycode_python{
+  margin-top: 5vw;
+  width: 90%;
+}
+
+
+/*  contact.html  */
+.contact_box{
+  padding: 4vw;
+  background-color: #edffec;
+  height: 1800px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.contact_box1{
+
+  background-color: white;
+  width: 25%;
+  height: 100%;
+
+}
+.contact_box2{
+  border-radius: 10px;
+  margin-left: 4vw;
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  padding-left: 5vw;
+
+}
+.headcontact{
+  text-align: center;
+  font-size: 4vw;
+  padding: 3vw 2vw 0px 2vw;
+}
+.front_house{
+  margin: 0px 1vw 0px 1vw;
 }

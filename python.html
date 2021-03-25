@@ -46,6 +46,168 @@
       </div>
     </div>
   </nav>
+  <div class="show_code">
+    <p class="head_code"> Code 1 </p>
+    <p class="name_code"> game guess number 1 - 99 </p>
+    <div class="code">
+      <p>
+        import random <br>
+result = random.randint(1 , 99) <br>
+print('For test : '+str(result)) <br>
+i = 1 <br>
+print(' Welcome to game of guessing number '.center(50,'*')) <br>
+while True: <br>
+    print(('round'+str(i)).center(50 ,'-')) <br>
+    guess = int(input('Enter an integer from 1 to 99 : ')) <br>
+    if guess == result: <br>
+        print('#'*50) <br>
+        print('*** CONGRATURATION *** Your guess is correct'.center(50,' ')) <br>
+        print('#'*50) <br>
+        break <br>
+    elif guess != result : <br>
+        if guess < result and i != 6  : <br>
+            print('Hint: Your guess is low.') <br>
+        elif guess > result and i != 6 : <br>
+            print('Hint: Your guess is high.') <br>
+        i+=1 <br>
+    if guess != result and i == 6 : <br>
+        print('#'*50) <br>
+        print(('!!!SORRY!!! The secet number is '+str(result)).center(50,' ')) <br>
+        print('#'*50) <br>
+        break <br></p>
+        <img class="displaypython" src="python/code1.jpg" alt="">
+
+    <p class="head_code"> Code 2 </p>
+    <p class="name_code"> creat base triangle pascal </p>
+    <div class="code">
+      <p>
+put= put + 1 <br>
+triangle = [] <br>
+for i in range(put):
+    copy = triangle.copy() <br>
+    count = i-1     <br>
+    delete = 3 <br>
+    if i == 0 or i ==1 : <br>
+        triangle.append(1) <br>
+    elif i >= 2 : <br>
+        for j in range(count): <br>
+            result = copy[j]+copy[j+1] <br>
+            triangle.insert(1,result) <br>
+        if i >= 3 : <br>
+            for k in range(i-2): <br>
+                triangle.pop(i) <br>
+    copy.clear() <br>
+return trianglebr <br>
+<br>
+
+result = int(input('Please enter Degree of Pascal Triangle: ')) <br>
+print(Pascal(result))<br>
+<br>
+      <img class="displaypython" src="python/code2.jpg" alt="">
+
+      <p class="head_code"> Code 3 </p>
+      <p class="name_code"> creat dictionary for  Circle , Spuare , Triangle </p>
+      <div class="code">
+        <p>
+          import math <br>
+table = { } <br>
+for i in range(100): <br>
+    k = i+1 <br>
+    circle = k*k*3.1415927 <br>
+    Square = k*k <br>
+    Triangle = (3**0.5/4)*(k**2) <br>
+    table[k] = { 'circle' : circle , 'square': Square  , 'triangle': Triangle } <br>
+while True : <br>
+    print('Enter the geometry shape for an area calculation \n[Circle, Square, Triangle]') <br>
+    result = str(input('[Enter somthing else to exit to program] : ')) <br>
+    result = result.lower() <br>
+    if result == 'circle' or result == 'square' or result == 'triangle': <br>
+        print('Enter the dictionary key') <br>
+        number = float(input('[1 - 100]: ')) <br>
+        number = math.floor(number) <br>
+        if number >0 and number <= 100 : <br>
+            print('-'*50) <br>
+            print('The area of '+result+' %.2f'%table[number][result]) <br>
+            print('-'*50) <br>
+        else: <br>
+            print('!!!The key is out scope!!!') <br>
+            break <br>
+    else: <br>
+        break <br>
+  <br>
+        <img class="displaypython" src="python/code3.jpg" alt="">
+
+        <p class="head_code"> Code 4 </p>
+        <p class="name_code"> creat factorial </p>
+        <div class="code">
+          <p>
+            factorial = [] <br>
+            N = int(input("Enter 'n' of Factorial number:")) <br>
+<br>
+            for i in range( N ) : <br>
+            i = i+1 <br>
+            if i == 1 : <br>
+            factorial.append(1) <br>
+            i = i-1 <br>
+            if i == 2 : <br>
+              factorial.append(2) <br>
+              i = i-1 <br>
+            if i > 2 : <br>
+              result = factorial[i-2]*i <br>
+              factorial.append(result) <br>
+
+            print('A list of Factorial serise of '+str(N)+' is',factorial)<br> <br>
+          <img class="displaypython" src="python/code4.jpg" alt="">
+
+          <p class="head_code"> Code 5 </p>
+          <p class="name_code"> creat password </p>
+          <div class="code">
+            <p>
+            pwlen = len(pw) <br>
+            pwlower = pw.lower() <br>
+            pwupper = pw.upper() <br>
+            small = 0 <br>
+            big = 0 <br>
+            number = 0 <br>
+            #print(pwlen) <br>
+            #finda-z <br>
+            # isalpha() ถ้า เป็นa-z ออก true <br>
+            # isdecimal() เป็น 0 - 9 ออก true <br>
+            for i in range(pwlen): <br>
+              if pw[i] == pwlower[i] and pw[i].isalpha() == True : <br>
+              small = small+1 <br>
+            #findA-Z <br>
+            for i in range(pwlen): <br>
+              if pw[i] == pwupper[i] and pw[i].isalpha() == True : <br>
+              big = big+1 <br>
+            #find0-9 <br>
+            for i in range(pwlen): <br>
+              if pw[i] == pwupper[i] and pw[i].isdecimal() == True : <br>
+
+if pwlen > 16 : <br>
+    print("!!!ERROR!!! The password must not contain more than 16 characters.") <br>
+elif pwlen < 8 : <br>
+    print("!!!ERROR!!! The password must not contain  ai least 8 characters.") <br>
+elif small < 1 : <br>
+    print("!!!ERROR!!! The password must contain at least a lowercase letter.") <br>
+elif big < 1 : <br>
+    print("!!!ERROR!!! The password must contain at least a capital letter.") <br>
+elif number < 1 : <br>
+    print("!!!ERROR!!! The password must contain at least a number.") <br>
+else: <br>
+    print(': - )Your password is correct( - :') <br> <br>
+            <img class="displaypython" src="python/code5.jpg" alt="">
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
   </body>
   <script src="index.js" charset="utf-8">
   </script>
